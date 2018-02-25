@@ -1,0 +1,19 @@
+{
+    "name": "jakubenglicky/nextras-orm-tools",
+    "type": "library",
+    "license": "MIT",
+    "description": "Tools for working with Nextras Orm",
+    "keywords": ["orm","nextras","tools"],
+    "authors": [
+        {
+            "name": "Jakub Englický",
+            "email": "jakubenglicky@gmail.com"
+        }
+    ],
+    "require": {
+        "nextras/orm": "^3.0"
+    },
+    "require-dev": {
+        "nette/tester": "^2.0"
+    }
+}
