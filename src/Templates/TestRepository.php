@@ -8,6 +8,6 @@ class TestRepository extends Repository
 {
     public static function getEntityClassNames(): array
     {
-       return [TestEntity::class];
+        return [TestEntity::class];
     }
 }

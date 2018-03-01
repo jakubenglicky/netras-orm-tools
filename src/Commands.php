@@ -3,13 +3,14 @@
 
 namespace NextrasOrmTools;
 
-use Inflect;
+use NextrasOrmTools\Helpers\Inflect;
 use Nette\Utils\Strings;
 
 class Commands
 {
     /**
      * Get title of app
+     *
      * @return string
      */
     public static function getTitle()
@@ -22,6 +23,7 @@ class Commands
 
     /**
      * Get options of app
+     *
      * @return string
      */
     public static function getOptions()
@@ -35,8 +37,9 @@ class Commands
 
     /**
      * Command for generate files from templates
-     * @param $nameOfRepository
-     * @param $namespace
+     *
+     * @param string $nameOfRepository
+     * @param string $namespace
      */
     public static function generateCommand($nameOfRepository, $namespace)
     {

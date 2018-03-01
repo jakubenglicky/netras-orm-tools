@@ -7,7 +7,8 @@ class CommandLine
 {
     /**
      * Write message to console
-     * @param $msg
+     *
+     * @param string $msg
      */
     public static function write($msg)
     {
@@ -16,7 +17,8 @@ class CommandLine
 
     /**
      * Write message to console and write new line
-     * @param $msg
+     *
+     * @param string $msg
      */
     public static function writeln($msg)
     {
@@ -25,6 +27,7 @@ class CommandLine
 
     /**
      * Get arguments from command line
+     *
      * @return array
      */
     public static function getArguments()
