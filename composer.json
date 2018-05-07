@@ -11,7 +11,9 @@
         }
     ],
     "require": {
-        "nextras/orm": "^3.0"
+        "nextras/orm": "^3.0",
+        "symfony/console": "^4.0",
+        "nette/utils": "^2.5"
     },
     "require-dev": {
         "nette/tester": "^2.0",
@@ -23,6 +25,6 @@
     },
     "autoload-dev": {
         "psr-4": {"NextrasOrmTools\\": "src/"},
-        "classmap": ["tests/", "src/Templates"]
+        "classmap": ["tests/", "src/Templates", "_output/"]
     }
 }

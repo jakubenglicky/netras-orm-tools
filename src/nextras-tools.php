@@ -2,6 +2,9 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-
-$runner = new \NextrasOrmTools\CliRunner();
-$runner->run();
+$console = new \Symfony\Component\Console\Application('Nextras ORM Tools');
+$console->addCommands([
+        new \NextrasOrmTools\Commands\ModelGeneratorCommand(),
+        new \NextrasOrmTools\Commands\DatabaseGeneratorCommand(),
+]);
+$console->run();
